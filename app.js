@@ -76,14 +76,14 @@ function agregarItemAlcart(title, price, imagenSrc){
             <div class="cart-item-details">
                 <span class="cart-item-title">${title}</span>
                 <div class="selector-quantity">
-                    <i class="fa-solid fa-minus restar-quantity"></i>
+                    <i class="fa fa-minus restar-quantity"></i>
                     <input type="text" value="1" class="cart-item-quantity" disabled>
-                    <i class="fa-solid fa-plus sumar-quantity"></i>
+                    <i class="fa fa-plus sumar-quantity"></i>
                 </div>
                 <span class="cart-item-price">${price}</span>
             </div>
             <button class="btn-remove">
-                <i class="fa-solid fa-trash"></i>
+                <i class="fa fa-trash"></i>
             </button>
         </div>
     `
